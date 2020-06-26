@@ -1,0 +1,36 @@
+.checkbox-vector input[type=checkbox] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.checkbox-vector input[type=checkbox] + .vector-box {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: #bdc3c7;
+    outline: auto;
+}
+
+.checkbox-vector input[type=checkbox]:checked + .vector-box {
+    background-color: #9b59b6;
+}
+
+.flex-vector .vector-container {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.flex-vector .vector-container:first-child {
+    margin-left: 0;
+}
+
+.flex-vector .vector-container:last-child {
+    margin-right: 0;
+}
+
+.bg-purple {
+    background-color: #9b59b6;
+    color: white !important;
+}
